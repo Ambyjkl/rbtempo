@@ -4,6 +4,9 @@ This is a Rhythmbox 3.x plugin that allows the playback speed to be increased
 or decreased. It is similar in spirit to rbpitch, but works on Rhythmbox 3. It
 is not as feature-complete as rbpitch.
 
+This fork adds support for controlling the pitch as well as the tempo of the
+music, and also detects the popular Rhythmbox plugin "Alternative Toolbar".
+
 Installation
 ------------
 Simply copy the entire directory tree to the Rhythmbox plugins directory. For
@@ -11,9 +14,10 @@ a local user on a UNIX-like system, this is ~/.local/share/rhythmbox/plugins.
 
 Usage
 -----
-In the toolbar there is a slider next to which +0% is written. Drag the slider
-to adjust the speed. There is a button next to the slider which resets the
-speed to normal (+0%).
+In the toolbar there is a fast-forward button (&#9193;), which on clicking opens
+a slider next to which +0% is written. Drag the slider to adjust the speed.
+There is a button next to the slider which resets the speed to normal (+0%).
+You can choose whether to speed up the pitch or the tempo using the checkboxes.
 
 License
 -------
